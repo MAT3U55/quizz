@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+    
+h1 {
+    color: black;
+    margin-top: 30px;
+}
+
+p {
+    background-color:  wheat;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 300px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+p:hover {
+    background-color: rgb(247, 205, 153);
+}
+
+#resultado {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/quiz.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <title>Quiz - Esse é o meu Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>Bora aquecer o cérebro?</h1>
+        <div id="cebro">
+            <img src="./img/brain-512758_1280.webp" alt="" width="177px">
+        </div>
+    </header>
+    <h1>Qual organela é conhecida como "usina" da célula devido ao processo de fotossíntese que ocorre nela?</h1>
+    <p onclick="verificarResposta('a')">Peroxissomo</p>
+    <p onclick="verificarResposta('c')">Lisossomo</p>
+    <p onclick="verificarResposta('b', 'pergunta3.html')">Cloroplasto</p>
+    <p onclick="verificarResposta('d')">Nucleo</p>
+    <p id = "resultado"></p>
+    <script src="./js/quiz.js"></script>
+</body>
+</html>

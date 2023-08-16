@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/quiz.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <title>Quiz - Esse é o meu Quiz</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bora aquecer o cérebro?</h1>
+        <div id="cebro">
+            <img src="./img/brain-512758_1280.webp" alt="" width="177px">
+        </div>
+    </header>
+    <h1>Qual organela é responsável pela produção de ATP (adenosina trifosfato),<br> a principal fonte de energia
+        celular?</h1>
+    <p onclick="verificarResposta('a')">Lisossomos</p>
+    <p onclick="verificarResposta('b', 'pergunta2.html')">Mitocôndria</p>
+    <p onclick="verificarResposta('c')">Ribossomo</p>
+    <p onclick="verificarResposta('d')">Complexo de golgi</p>
+    <p id="resultado"></p>
+
+    <script src="./js/quiz.js"></script>
+</body>
+
+</html>

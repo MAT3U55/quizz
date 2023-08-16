@@ -1,0 +1,12 @@
+header{
+    background-color: rgb(173, 52, 8);
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 35%;
+}
+
+#cebro{
+    padding-left: 25%;
+}
